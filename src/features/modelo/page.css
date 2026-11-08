@@ -1,0 +1,66 @@
+.modelo-constraints {
+  display: grid;
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.modelo-constraints li {
+  display: grid;
+  gap: var(--space-2);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.modelo-constraints li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.modelo-variables {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: var(--space-4);
+  margin: 0;
+}
+
+.modelo-variables dt {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.modelo-variables dd {
+  margin: var(--space-1) 0 0;
+  color: var(--color-text-muted);
+}
+
+.modelo-equation {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.modelo-restriccion-nombre {
+  font-weight: 600;
+}
+
+.modelo-dominios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: var(--space-5);
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.modelo-dominios h5 {
+  margin: 0 0 var(--space-2);
+}
+
+.modelo-dominios p {
+  margin: 0 0 var(--space-2);
+}
+
+.modelo-dominios p:last-child {
+  margin-bottom: 0;
+}

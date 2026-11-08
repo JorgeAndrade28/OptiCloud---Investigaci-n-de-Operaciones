@@ -1,0 +1,14 @@
+.acerca-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: var(--space-4);
+}
+
+.acerca-grid p {
+  margin: 0;
+}
+
+.acerca-disclaimer {
+  margin: 0;
+  font-weight: 600;
+}
